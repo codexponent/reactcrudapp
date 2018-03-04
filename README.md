@@ -11,7 +11,7 @@
 
 To begin using this project, follow the following options to get started:
 * Clone the repo: `git clone https://github.com/codexponent/reactcrudapp.git`
-* [Fork, Clone, or Download on GitHub](https://github.com/codexponent/reactcrudapp)
+* [Fork, or Download on GitHub](https://github.com/codexponent/reactcrudapp)
 
 ## Usage
 
