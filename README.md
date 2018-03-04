@@ -3,7 +3,7 @@
 ## Status
 
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/codexponent/reactcrudapp/master/LICENSE)
-[![Build Status](https://api.travis-ci.com/codexponent/reactcrudapp.svg?token=7YLbZnNjDcsYyhUp2xvc&branch=master)(https://travis-ci.org/codexponent/reactcrudapp)
+[![Build Status](https://api.travis-ci.com/codexponent/reactcrudapp.svg?token=7YLbZnNjDcsYyhUp2xvc&branch=master)](https://travis-ci.org/codexponent/reactcrudapp)
 [![dependencies Status](https://david-dm.org/codexponent/reactcrudapp/status.svg)](https://david-dm.org/codexponent/reactcrudapp)
 [![devDependencies Status](https://david-dm.org/codexponent/reactcrudapp/dev-status.svg)](https://david-dm.org/codexponent/reactcrudapp?type=dev)
 
