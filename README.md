@@ -41,9 +41,9 @@ To begin using this project, follow the following options to get started:
 ## Contribute
 ----------
 
-- Issue Tracker: https://github.com/codexponent/ultimatefootballleague/issues
-- Source Code: https://github.com/codexponent/ultimatefootballleague
-- Contributors: https://github.com/codexponent/ultimatefootballleague/contributors.txt
+- Issue Tracker: https://github.com/codexponent/reactcrudapp/issues
+- Source Code: https://github.com/codexponent/reactcrudapp
+- Contributors: https://github.com/codexponent/reactcrudapp/contributors.txt
 
 ## Support
 -------
