@@ -1,0 +1,27 @@
+{
+  "coverage": "69.23%",
+  "expectCount": 26,
+  "actualCount": 18,
+  "files": {
+    "src/App.js": {
+      "expectCount": 21,
+      "actualCount": 18,
+      "undocumentLines": [
+        23,
+        35,
+        36
+      ]
+    },
+    "src/registerServiceWorker.js": {
+      "expectCount": 5,
+      "actualCount": 0,
+      "undocumentLines": [
+        11,
+        21,
+        55,
+        84,
+        111
+      ]
+    }
+  }
+}

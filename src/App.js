@@ -35,6 +35,16 @@ const styles = {
 class App extends Component {
   constructor() {
     super();
+    /**
+     * @type {object}
+     * @property {array} data The data that comes from the REST API
+     * @property {boolean} open Toggling Dialog Box for Create
+     * @property {boolean} openDelete Toggling Dialog Box for Delete
+     * @property {boolean} openUpdate Toggling Dialog Box for Update
+     * @property {string} name Full Name
+     * @property {int} age Age
+     * @property {int} id Id
+     */
     this.state = {
       data: [],
       open: false,
@@ -61,6 +71,12 @@ class App extends Component {
     this.handleDeleteSubmitClose = this.handleDeleteSubmitClose.bind(this)
 }
 
+/**
+     * Toggler for Delete Dialog Box - Open
+     * @param {int} pid Id
+     * @param {string} pname Name
+     * @param {int} page Age
+     */
 handleDeleteOpen(pid, pname, page){
     this.setState({
         openDelete: true,
@@ -70,10 +86,16 @@ handleDeleteOpen(pid, pname, page){
     });
 };
 
+/**
+     * Toggler for Delete Dialog Box - Close
+     */
 handleDeleteClose(){
     this.setState({openDelete: false});
 };
 
+/**
+     * Toggler for Delete Dialog Box - Close by Submitting
+     */
 handleDeleteSubmitClose(){
 
     console.log("handleDeleteSubmitClose is running")
@@ -93,7 +115,12 @@ handleDeleteSubmitClose(){
     this.setState({openDelete: false});
     window.location.reload()
 };
-
+/**
+     * Toggler for Update Dialog Box - Open
+     * @param {int} pid Id
+     * @param {string} pname Name
+     * @param {int} page Age
+     */
 handleUpdateOpen(pid, pname, page){
     this.setState({
         openUpdate: true,
@@ -103,10 +130,16 @@ handleUpdateOpen(pid, pname, page){
     });
 };
 
+/**
+     * Toggler for Update Dialog Box - Close
+     */
 handleUpdateClose(){
     this.setState({openUpdate: false});
 };
 
+/**
+     * Toggler for Update Dialog Box - Close By Submitting
+     */
 handleUpdateSubmitClose(){
     axios.post('https://springcrudapp.herokuapp.com/updates', {
         "id": this.state.id,
@@ -125,26 +158,43 @@ handleUpdateSubmitClose(){
     window.location.reload()
 }
 
+/**
+     * Saving the name to the State Object
+     * @param {Synthetic Event} event
+     */
 handleNameChange(event){
     this.setState({
         name: event.target.value,
     });
 }
 
+/**
+     * Saving the age to the State Object
+     * @param {Synthetic Event} event
+     */
 handleAgeChange(event){
     this.setState({
         age: event.target.value
     })
 }
 
+/**
+     * Toggler for Create Dialog Box - Open
+     */
 handleOpen(){
     this.setState({open: true});
 };
 
+/**
+     * Toggler for Create Dialog Box - Close
+     */
 handleClose(){
     this.setState({open: false});
 };
 
+/**
+     * Toggler for Create Dialog Box - Close by Submitting
+     */
 handleSubmitClose(){
     axios.post('https://springcrudapp.herokuapp.com/creates', {
         "name": this.state.name,
@@ -162,6 +212,9 @@ handleSubmitClose(){
     window.location.reload()
 }
 
+/**
+     * Default Lifecycle of React
+     */
 componentWillMount(){
     axios.get('https://springcrudapp.herokuapp.com/students')
     .then( (response) => {
@@ -179,6 +232,10 @@ componentWillMount(){
     });
 }
 
+/**
+     * TextField for Creating new Data
+     * @return {ReactElement} Name Field and Age Field
+     */
 addData(){
     return (
         <div>
@@ -195,12 +252,20 @@ addData(){
     )
 }
 
+/**
+     * Text for Deleting new Data
+     * @return {ReactElement} Text
+     */
 deleteData(){
     return(
         <h4>Do you really want to delete? </h4>
     )
 }
 
+/**
+     * TextField for Updating new Data
+     * @return {ReactElement} Name Field and Age Field
+     */
 updateData(){
     return(
         <div>
@@ -219,6 +284,10 @@ updateData(){
     )
 }
 
+/**
+     * Function for Organizing Data on the Table
+     * @return {Array} Table Data in the form of array
+     */
 displayTableData(){
     const updateActions = [
         <FlatButton
@@ -284,6 +353,10 @@ displayTableData(){
     )
 }
 
+/**
+     * Default Render Method of React
+     * @return {ReactElement} HTML Codes
+     */
 render() {
 
     const actions = [

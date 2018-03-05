@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl" href="../../">
+  <title data-ice="title">src/App.js | crudapp</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  <script src="script/manual.js"></script>
+</head>
+<body class="layout-container" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+</header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  <li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/App.js~App.html">App</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-register">register</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-unregister">unregister</a></span></span></li>
+</ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><h1 data-ice="title">src/App.js</h1>
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">import React, { Component } from &apos;react&apos;;
+import logo from &apos;./logo.svg&apos;;
+import &apos;./App.css&apos;;
+
+import AppBar from &apos;material-ui/AppBar&apos;;
+import IconButton from &apos;material-ui/IconButton&apos;;
+import NavigationClose from &apos;material-ui/svg-icons/navigation/close&apos;;
+import axios from &apos;axios&apos;;
+import RaisedButton from &apos;material-ui/RaisedButton&apos;;
+import Dialog from &apos;material-ui/Dialog&apos;;
+import FlatButton from &apos;material-ui/FlatButton&apos;;
+import TextField from &apos;material-ui/TextField&apos;;
+
+import {
+    Table,
+    TableBody,
+    TableHeader,
+    TableHeaderColumn,
+    TableRow,
+    TableRowColumn,
+  } from &apos;material-ui/Table&apos;;
+
+const styles = {
+    title: {
+        position: &apos;center&apos;,
+        textAlign: &apos;center&apos;
+    },
+    leftIcon: {
+      cursor: &apos;default&apos;,
+      color: &apos;green&apos;
+    },
+  };
+
+
+class App extends Component {
+  constructor() {
+    super();
+    /**
+     * @type {object}
+     * @property {array} data The data that comes from the REST API
+     * @property {boolean} open Toggling Dialog Box for Create
+     * @property {boolean} openDelete Toggling Dialog Box for Delete
+     * @property {boolean} openUpdate Toggling Dialog Box for Update
+     * @property {string} name Full Name
+     * @property {int} age Age
+     * @property {int} id Id
+     */
+    this.state = {
+      data: [],
+      open: false,
+      openDelete: false,
+      openUpdate: false,
+      name: null,
+      age: null,
+      id: null
+    }
+    this.displayTableData = this.displayTableData.bind(this)
+    this.addData = this.addData.bind(this)
+    this.handleOpen = this.handleOpen.bind(this)
+    this.handleClose = this.handleClose.bind(this)
+    this.handleNameChange = this.handleNameChange.bind(this)
+    this.handleAgeChange = this.handleAgeChange.bind(this)
+    this.handleSubmitClose = this.handleSubmitClose.bind(this)
+    this.deleteData = this.deleteData.bind(this)
+    this.updateData = this.updateData.bind(this)
+    this.handleUpdateOpen = this.handleUpdateOpen.bind(this)
+    this.handleUpdateClose = this.handleUpdateClose.bind(this)
+    this.handleUpdateSubmitClose = this.handleUpdateSubmitClose.bind(this)
+    this.handleDeleteOpen = this.handleDeleteOpen.bind(this)
+    this.handleDeleteClose = this.handleDeleteClose.bind(this)
+    this.handleDeleteSubmitClose = this.handleDeleteSubmitClose.bind(this)
+}
+
+/**
+     * Toggler for Delete Dialog Box - Open
+     * @param {int} pid Id
+     * @param {string} pname Name
+     * @param {int} page Age
+     */
+handleDeleteOpen(pid, pname, page){
+    this.setState({
+        openDelete: true,
+        id: pid,
+        name: pname,
+        age: page
+    });
+};
+
+/**
+     * Toggler for Delete Dialog Box - Close
+     */
+handleDeleteClose(){
+    this.setState({openDelete: false});
+};
+
+/**
+     * Toggler for Delete Dialog Box - Close by Submitting
+     */
+handleDeleteSubmitClose(){
+
+    console.log(&quot;handleDeleteSubmitClose is running&quot;)
+    console.log(&quot;this.state.id&quot;)
+    console.log(this.state.id)
+
+    axios.post(&apos;https://springcrudapp.herokuapp.com/deletes&apos; , {
+        &quot;id&quot;: this.state.id,
+      })
+      .then((response) =&gt; {
+        console.log(response);
+      })
+      .catch((error) =&gt; {
+        console.log(error);
+      });        
+      
+    this.setState({openDelete: false});
+    window.location.reload()
+};
+/**
+     * Toggler for Update Dialog Box - Open
+     * @param {int} pid Id
+     * @param {string} pname Name
+     * @param {int} page Age
+     */
+handleUpdateOpen(pid, pname, page){
+    this.setState({
+        openUpdate: true,
+        id: pid,
+        name: pname,
+        age: page
+    });
+};
+
+/**
+     * Toggler for Update Dialog Box - Close
+     */
+handleUpdateClose(){
+    this.setState({openUpdate: false});
+};
+
+/**
+     * Toggler for Update Dialog Box - Close By Submitting
+     */
+handleUpdateSubmitClose(){
+    axios.post(&apos;https://springcrudapp.herokuapp.com/updates&apos;, {
+        &quot;id&quot;: this.state.id,
+        &quot;name&quot;: this.state.name,
+        &quot;age&quot;: this.state.age
+      })
+      .then((response) =&gt; {
+        console.log(&quot;response of HandleUpdateSubmitClose - Main Page&quot;)
+        console.log(response);
+      })
+      .catch((error) =&gt; {
+        console.log(error);
+      });
+    
+    this.setState({openUpdate: false});
+    window.location.reload()
+}
+
+/**
+     * Saving the name to the State Object
+     * @param {Synthetic Event} event
+     */
+handleNameChange(event){
+    this.setState({
+        name: event.target.value,
+    });
+}
+
+/**
+     * Saving the age to the State Object
+     * @param {Synthetic Event} event
+     */
+handleAgeChange(event){
+    this.setState({
+        age: event.target.value
+    })
+}
+
+/**
+     * Toggler for Create Dialog Box - Open
+     */
+handleOpen(){
+    this.setState({open: true});
+};
+
+/**
+     * Toggler for Create Dialog Box - Close
+     */
+handleClose(){
+    this.setState({open: false});
+};
+
+/**
+     * Toggler for Create Dialog Box - Close by Submitting
+     */
+handleSubmitClose(){
+    axios.post(&apos;https://springcrudapp.herokuapp.com/creates&apos;, {
+        &quot;name&quot;: this.state.name,
+        &quot;age&quot;: this.state.age
+      })
+      .then((response) =&gt; {
+        console.log(&quot;response of HandleSubmitClose - Main Page&quot;)
+        console.log(response);
+      })
+      .catch((error) =&gt; {
+        console.log(error);
+      });
+    
+    this.setState({open: false});
+    window.location.reload()
+}
+
+/**
+     * Default Lifecycle of React
+     */
+componentWillMount(){
+    axios.get(&apos;https://springcrudapp.herokuapp.com/students&apos;)
+    .then( (response) =&gt; {
+        console.log(&apos;Response on ComponentWillMount&apos;)
+        console.log(&quot;response&quot;)
+        console.log(response)
+        console.log(&quot;response.data&quot;)
+        console.log(response.data)
+        // console.log(&quot;JSON.parse(example)&quot;)
+        // console.log(JSON.parse(response.data))
+        this.setState({ data: response.data});
+    })
+    .catch( (error) =&gt; {
+        console.log(error);
+    });
+}
+
+/**
+     * TextField for Creating new Data
+     * @return {ReactElement} Name Field and Age Field
+     */
+addData(){
+    return (
+        &lt;div&gt;
+            &lt;TextField
+                hintText=&quot;Name&quot;
+                onChange={this.handleNameChange}
+            /&gt;&lt;br /&gt;
+            &lt;br /&gt;
+            &lt;TextField
+                hintText=&quot;Age&quot;
+                onChange={this.handleAgeChange}
+            /&gt;&lt;br /&gt;
+        &lt;/div&gt;
+    )
+}
+
+/**
+     * Text for Deleting new Data
+     * @return {ReactElement} Text
+     */
+deleteData(){
+    return(
+        &lt;h4&gt;Do you really want to delete? &lt;/h4&gt;
+    )
+}
+
+/**
+     * TextField for Updating new Data
+     * @return {ReactElement} Name Field and Age Field
+     */
+updateData(){
+    return(
+        &lt;div&gt;
+            &lt;TextField
+                hintText=&quot;Name&quot;
+                onChange={this.handleNameChange}
+                defaultValue = {this.state.name}
+            /&gt;&lt;br /&gt;
+            &lt;br /&gt;
+            &lt;TextField
+                hintText=&quot;Age&quot;
+                onChange={this.handleAgeChange}
+                defaultValue = {this.state.age}
+            /&gt;&lt;br /&gt;
+        &lt;/div&gt;
+    )
+}
+
+/**
+     * Function for Organizing Data on the Table
+     * @return {Array} Table Data in the form of array
+     */
+displayTableData(){
+    const updateActions = [
+        &lt;FlatButton
+          label=&quot;Cancel&quot;
+          primary={true}
+          onClick={this.handleUpdateClose}
+        /&gt;,
+        &lt;FlatButton
+          label=&quot;Submit&quot;
+          primary={true}
+          keyboardFocused={true}
+          onClick={this.handleUpdateSubmitClose}
+        /&gt;,
+      ];
+    const deleteActions = [
+        &lt;FlatButton
+          label=&quot;Cancel&quot;
+          primary={true}
+          onClick={this.handleDeleteClose}
+        /&gt;,
+        &lt;FlatButton
+          label=&quot;Submit&quot;
+          primary={true}
+          keyboardFocused={true}
+          onClick={this.handleDeleteSubmitClose}
+        /&gt;,
+      ];
+    let tempArrayList = new Array()
+
+    for (let keys in this.state.data){
+        tempArrayList.push(
+            &lt;TableRow key={keys} &gt;
+                &lt;TableRowColumn&gt;{this.state.data[keys].id}&lt;/TableRowColumn&gt;
+                &lt;TableRowColumn&gt;{this.state.data[keys].name}&lt;/TableRowColumn&gt;
+                &lt;TableRowColumn&gt;{this.state.data[keys].age}&lt;/TableRowColumn&gt;
+                &lt;TableRowColumn&gt;&lt;FlatButton onClick={() =&gt; this.handleUpdateOpen(this.state.data[keys].id, this.state.data[keys].name, this.state.data[keys].age)} primary={true} label=&quot;Edit&quot; /&gt;&lt;/TableRowColumn&gt;
+                &lt;Dialog
+                    title=&quot;Dialog With Actions&quot;
+                    actions={updateActions}
+                    modal={false}
+                    open={this.state.openUpdate}
+                    onRequestClose={this.handleUpdateClose}
+                    &gt;
+                    {this.updateData()}
+                    &lt;/Dialog&gt;
+
+                &lt;TableRowColumn&gt;&lt;FlatButton onClick={() =&gt; this.handleDeleteOpen(this.state.data[keys].id, this.state.data[keys].name, this.state.data[keys].age)} secondary={true} label=&quot;Delete&quot; /&gt;&lt;/TableRowColumn&gt;
+                &lt;Dialog
+                    title=&quot;Dialog With Actions&quot;
+                    actions={deleteActions}
+                    modal={false}
+                    open={this.state.openDelete}
+                    onRequestClose={this.handleDeleteClose}
+                    &gt;
+                    {this.deleteData()}
+                    &lt;/Dialog&gt;
+            &lt;/TableRow&gt;
+        )
+    }
+
+    return(
+        tempArrayList
+    )
+}
+
+/**
+     * render
+     * @return {ReactElement} HTML Codes
+     */
+render() {
+
+    const actions = [
+        &lt;FlatButton
+          label=&quot;Cancel&quot;
+          primary={true}
+          onClick={this.handleClose}
+        /&gt;,
+        &lt;FlatButton
+          label=&quot;Submit&quot;
+          primary={true}
+          keyboardFocused={true}
+          onClick={this.handleSubmitClose}
+        /&gt;,
+      ];
+
+    return(
+        &lt;div&gt;
+            &lt;AppBar
+                title={&lt;span style={styles.title} &gt;React CRUD Application&lt;/span&gt;}
+                iconElementLeft={&lt;IconButton style={styles.leftIcon} &gt;&lt;NavigationClose /&gt;&lt;/IconButton&gt;}
+            /&gt;
+            &lt;br /&gt;
+            &lt;Table&gt;
+                &lt;TableHeader adjustForCheckbox={false} displaySelectAll={false}&gt;
+                    &lt;TableRow&gt;
+                        &lt;TableHeaderColumn&gt;ID&lt;/TableHeaderColumn&gt;
+                        &lt;TableHeaderColumn&gt;Name&lt;/TableHeaderColumn&gt;
+                        &lt;TableHeaderColumn&gt;Age&lt;/TableHeaderColumn&gt;
+                        &lt;TableHeaderColumn&gt;Edit&lt;/TableHeaderColumn&gt;
+                        &lt;TableHeaderColumn&gt;Delete&lt;/TableHeaderColumn&gt;
+                    &lt;/TableRow&gt;
+                &lt;/TableHeader&gt;
+                &lt;TableBody displayRowCheckbox={false} &gt;
+                    {this.displayTableData()}
+                &lt;/TableBody&gt;
+            &lt;/Table&gt;
+            &lt;br /&gt;
+            {/* &lt;RaisedButton label=&quot;Add&quot; onClick={this.addData} primary={true} /&gt; */}
+            &lt;RaisedButton label=&quot;Add Data&quot; onClick={this.handleOpen} /&gt;
+                &lt;Dialog
+                title=&quot;Dialog With Actions&quot;
+                actions={actions}
+                modal={false}
+                open={this.state.open}
+                onRequestClose={this.handleClose}
+                &gt;
+                {this.addData()}
+                &lt;/Dialog&gt;
+        &lt;/div&gt;
+    )
+}
+}
+
+export default App;
+</code></pre>
+
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(1.0.4)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>

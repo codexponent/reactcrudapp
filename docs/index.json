@@ -1,0 +1,1247 @@
+[
+  {
+    "__docId__": 1,
+    "kind": "external",
+    "name": "Infinity",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Infinity",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Infinity",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 2,
+    "kind": "external",
+    "name": "NaN",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~NaN",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 3,
+    "kind": "external",
+    "name": "undefined",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~undefined",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 4,
+    "kind": "external",
+    "name": "null",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/null",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~null",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 5,
+    "kind": "external",
+    "name": "Object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 6,
+    "kind": "external",
+    "name": "object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 7,
+    "kind": "external",
+    "name": "Function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 8,
+    "kind": "external",
+    "name": "function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 9,
+    "kind": "external",
+    "name": "Boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 10,
+    "kind": "external",
+    "name": "boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 11,
+    "kind": "external",
+    "name": "Symbol",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Symbol",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 12,
+    "kind": "external",
+    "name": "Error",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Error",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 13,
+    "kind": "external",
+    "name": "EvalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/EvalError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~EvalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 14,
+    "kind": "external",
+    "name": "InternalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/InternalError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~InternalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 15,
+    "kind": "external",
+    "name": "RangeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RangeError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~RangeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 16,
+    "kind": "external",
+    "name": "ReferenceError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ReferenceError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~ReferenceError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 17,
+    "kind": "external",
+    "name": "SyntaxError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SyntaxError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~SyntaxError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 18,
+    "kind": "external",
+    "name": "TypeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypeError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~TypeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 19,
+    "kind": "external",
+    "name": "URIError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/URIError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~URIError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 20,
+    "kind": "external",
+    "name": "Number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 21,
+    "kind": "external",
+    "name": "number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 22,
+    "kind": "external",
+    "name": "Date",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Date",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 23,
+    "kind": "external",
+    "name": "String",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~String",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 24,
+    "kind": "external",
+    "name": "string",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~string",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 25,
+    "kind": "external",
+    "name": "RegExp",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~RegExp",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 26,
+    "kind": "external",
+    "name": "Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 27,
+    "kind": "external",
+    "name": "Int8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int8Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 28,
+    "kind": "external",
+    "name": "Uint8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 29,
+    "kind": "external",
+    "name": "Uint8ClampedArray",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8ClampedArray",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint8ClampedArray",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 30,
+    "kind": "external",
+    "name": "Int16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int16Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 31,
+    "kind": "external",
+    "name": "Uint16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint16Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 32,
+    "kind": "external",
+    "name": "Int32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 33,
+    "kind": "external",
+    "name": "Uint32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 34,
+    "kind": "external",
+    "name": "Float32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Float32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 35,
+    "kind": "external",
+    "name": "Float64Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float64Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Float64Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 36,
+    "kind": "external",
+    "name": "Map",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Map",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 37,
+    "kind": "external",
+    "name": "Set",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Set",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 38,
+    "kind": "external",
+    "name": "WeakMap",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakMap",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~WeakMap",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 39,
+    "kind": "external",
+    "name": "WeakSet",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakSet",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~WeakSet",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 40,
+    "kind": "external",
+    "name": "ArrayBuffer",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~ArrayBuffer",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 41,
+    "kind": "external",
+    "name": "DataView",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/DataView",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~DataView",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 42,
+    "kind": "external",
+    "name": "JSON",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~JSON",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 43,
+    "kind": "external",
+    "name": "Promise",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Promise",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 44,
+    "kind": "external",
+    "name": "Generator",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Generator",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 45,
+    "kind": "external",
+    "name": "GeneratorFunction",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/GeneratorFunction",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~GeneratorFunction",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 46,
+    "kind": "external",
+    "name": "Reflect",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Reflect",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Reflect",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 47,
+    "kind": "external",
+    "name": "Proxy",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Proxy",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 48,
+    "kind": "file",
+    "name": "src/App.js",
+    "content": "import React, { Component } from 'react';\nimport logo from './logo.svg';\nimport './App.css';\n\nimport AppBar from 'material-ui/AppBar';\nimport IconButton from 'material-ui/IconButton';\nimport NavigationClose from 'material-ui/svg-icons/navigation/close';\nimport axios from 'axios';\nimport RaisedButton from 'material-ui/RaisedButton';\nimport Dialog from 'material-ui/Dialog';\nimport FlatButton from 'material-ui/FlatButton';\nimport TextField from 'material-ui/TextField';\n\nimport {\n    Table,\n    TableBody,\n    TableHeader,\n    TableHeaderColumn,\n    TableRow,\n    TableRowColumn,\n  } from 'material-ui/Table';\n\nconst styles = {\n    title: {\n        position: 'center',\n        textAlign: 'center'\n    },\n    leftIcon: {\n      cursor: 'default',\n      color: 'green'\n    },\n  };\n\n\nclass App extends Component {\n  constructor() {\n    super();\n    /**\n     * @type {object}\n     * @property {array} data The data that comes from the REST API\n     * @property {boolean} open Toggling Dialog Box for Create\n     * @property {boolean} openDelete Toggling Dialog Box for Delete\n     * @property {boolean} openUpdate Toggling Dialog Box for Update\n     * @property {string} name Full Name\n     * @property {int} age Age\n     * @property {int} id Id\n     */\n    this.state = {\n      data: [],\n      open: false,\n      openDelete: false,\n      openUpdate: false,\n      name: null,\n      age: null,\n      id: null\n    }\n    this.displayTableData = this.displayTableData.bind(this)\n    this.addData = this.addData.bind(this)\n    this.handleOpen = this.handleOpen.bind(this)\n    this.handleClose = this.handleClose.bind(this)\n    this.handleNameChange = this.handleNameChange.bind(this)\n    this.handleAgeChange = this.handleAgeChange.bind(this)\n    this.handleSubmitClose = this.handleSubmitClose.bind(this)\n    this.deleteData = this.deleteData.bind(this)\n    this.updateData = this.updateData.bind(this)\n    this.handleUpdateOpen = this.handleUpdateOpen.bind(this)\n    this.handleUpdateClose = this.handleUpdateClose.bind(this)\n    this.handleUpdateSubmitClose = this.handleUpdateSubmitClose.bind(this)\n    this.handleDeleteOpen = this.handleDeleteOpen.bind(this)\n    this.handleDeleteClose = this.handleDeleteClose.bind(this)\n    this.handleDeleteSubmitClose = this.handleDeleteSubmitClose.bind(this)\n}\n\n/**\n     * Toggler for Delete Dialog Box - Open\n     * @param {int} pid Id\n     * @param {string} pname Name\n     * @param {int} page Age\n     */\nhandleDeleteOpen(pid, pname, page){\n    this.setState({\n        openDelete: true,\n        id: pid,\n        name: pname,\n        age: page\n    });\n};\n\n/**\n     * Toggler for Delete Dialog Box - Close\n     */\nhandleDeleteClose(){\n    this.setState({openDelete: false});\n};\n\n/**\n     * Toggler for Delete Dialog Box - Close by Submitting\n     */\nhandleDeleteSubmitClose(){\n\n    console.log(\"handleDeleteSubmitClose is running\")\n    console.log(\"this.state.id\")\n    console.log(this.state.id)\n\n    axios.post('https://springcrudapp.herokuapp.com/deletes' , {\n        \"id\": this.state.id,\n      })\n      .then((response) => {\n        console.log(response);\n      })\n      .catch((error) => {\n        console.log(error);\n      });        \n      \n    this.setState({openDelete: false});\n    window.location.reload()\n};\n/**\n     * Toggler for Update Dialog Box - Open\n     * @param {int} pid Id\n     * @param {string} pname Name\n     * @param {int} page Age\n     */\nhandleUpdateOpen(pid, pname, page){\n    this.setState({\n        openUpdate: true,\n        id: pid,\n        name: pname,\n        age: page\n    });\n};\n\n/**\n     * Toggler for Update Dialog Box - Close\n     */\nhandleUpdateClose(){\n    this.setState({openUpdate: false});\n};\n\n/**\n     * Toggler for Update Dialog Box - Close By Submitting\n     */\nhandleUpdateSubmitClose(){\n    axios.post('https://springcrudapp.herokuapp.com/updates', {\n        \"id\": this.state.id,\n        \"name\": this.state.name,\n        \"age\": this.state.age\n      })\n      .then((response) => {\n        console.log(\"response of HandleUpdateSubmitClose - Main Page\")\n        console.log(response);\n      })\n      .catch((error) => {\n        console.log(error);\n      });\n    \n    this.setState({openUpdate: false});\n    window.location.reload()\n}\n\n/**\n     * Saving the name to the State Object\n     * @param {Synthetic Event} event\n     */\nhandleNameChange(event){\n    this.setState({\n        name: event.target.value,\n    });\n}\n\n/**\n     * Saving the age to the State Object\n     * @param {Synthetic Event} event\n     */\nhandleAgeChange(event){\n    this.setState({\n        age: event.target.value\n    })\n}\n\n/**\n     * Toggler for Create Dialog Box - Open\n     */\nhandleOpen(){\n    this.setState({open: true});\n};\n\n/**\n     * Toggler for Create Dialog Box - Close\n     */\nhandleClose(){\n    this.setState({open: false});\n};\n\n/**\n     * Toggler for Create Dialog Box - Close by Submitting\n     */\nhandleSubmitClose(){\n    axios.post('https://springcrudapp.herokuapp.com/creates', {\n        \"name\": this.state.name,\n        \"age\": this.state.age\n      })\n      .then((response) => {\n        console.log(\"response of HandleSubmitClose - Main Page\")\n        console.log(response);\n      })\n      .catch((error) => {\n        console.log(error);\n      });\n    \n    this.setState({open: false});\n    window.location.reload()\n}\n\n/**\n     * Default Lifecycle of React\n     */\ncomponentWillMount(){\n    axios.get('https://springcrudapp.herokuapp.com/students')\n    .then( (response) => {\n        console.log('Response on ComponentWillMount')\n        console.log(\"response\")\n        console.log(response)\n        console.log(\"response.data\")\n        console.log(response.data)\n        // console.log(\"JSON.parse(example)\")\n        // console.log(JSON.parse(response.data))\n        this.setState({ data: response.data});\n    })\n    .catch( (error) => {\n        console.log(error);\n    });\n}\n\n/**\n     * TextField for Creating new Data\n     * @return {ReactElement} Name Field and Age Field\n     */\naddData(){\n    return (\n        <div>\n            <TextField\n                hintText=\"Name\"\n                onChange={this.handleNameChange}\n            /><br />\n            <br />\n            <TextField\n                hintText=\"Age\"\n                onChange={this.handleAgeChange}\n            /><br />\n        </div>\n    )\n}\n\n/**\n     * Text for Deleting new Data\n     * @return {ReactElement} Text\n     */\ndeleteData(){\n    return(\n        <h4>Do you really want to delete? </h4>\n    )\n}\n\n/**\n     * TextField for Updating new Data\n     * @return {ReactElement} Name Field and Age Field\n     */\nupdateData(){\n    return(\n        <div>\n            <TextField\n                hintText=\"Name\"\n                onChange={this.handleNameChange}\n                defaultValue = {this.state.name}\n            /><br />\n            <br />\n            <TextField\n                hintText=\"Age\"\n                onChange={this.handleAgeChange}\n                defaultValue = {this.state.age}\n            /><br />\n        </div>\n    )\n}\n\n/**\n     * Function for Organizing Data on the Table\n     * @return {Array} Table Data in the form of array\n     */\ndisplayTableData(){\n    const updateActions = [\n        <FlatButton\n          label=\"Cancel\"\n          primary={true}\n          onClick={this.handleUpdateClose}\n        />,\n        <FlatButton\n          label=\"Submit\"\n          primary={true}\n          keyboardFocused={true}\n          onClick={this.handleUpdateSubmitClose}\n        />,\n      ];\n    const deleteActions = [\n        <FlatButton\n          label=\"Cancel\"\n          primary={true}\n          onClick={this.handleDeleteClose}\n        />,\n        <FlatButton\n          label=\"Submit\"\n          primary={true}\n          keyboardFocused={true}\n          onClick={this.handleDeleteSubmitClose}\n        />,\n      ];\n    let tempArrayList = new Array()\n\n    for (let keys in this.state.data){\n        tempArrayList.push(\n            <TableRow key={keys} >\n                <TableRowColumn>{this.state.data[keys].id}</TableRowColumn>\n                <TableRowColumn>{this.state.data[keys].name}</TableRowColumn>\n                <TableRowColumn>{this.state.data[keys].age}</TableRowColumn>\n                <TableRowColumn><FlatButton onClick={() => this.handleUpdateOpen(this.state.data[keys].id, this.state.data[keys].name, this.state.data[keys].age)} primary={true} label=\"Edit\" /></TableRowColumn>\n                <Dialog\n                    title=\"Dialog With Actions\"\n                    actions={updateActions}\n                    modal={false}\n                    open={this.state.openUpdate}\n                    onRequestClose={this.handleUpdateClose}\n                    >\n                    {this.updateData()}\n                    </Dialog>\n\n                <TableRowColumn><FlatButton onClick={() => this.handleDeleteOpen(this.state.data[keys].id, this.state.data[keys].name, this.state.data[keys].age)} secondary={true} label=\"Delete\" /></TableRowColumn>\n                <Dialog\n                    title=\"Dialog With Actions\"\n                    actions={deleteActions}\n                    modal={false}\n                    open={this.state.openDelete}\n                    onRequestClose={this.handleDeleteClose}\n                    >\n                    {this.deleteData()}\n                    </Dialog>\n            </TableRow>\n        )\n    }\n\n    return(\n        tempArrayList\n    )\n}\n\n/**\n     * render\n     * @return {ReactElement} HTML Codes\n     */\nrender() {\n\n    const actions = [\n        <FlatButton\n          label=\"Cancel\"\n          primary={true}\n          onClick={this.handleClose}\n        />,\n        <FlatButton\n          label=\"Submit\"\n          primary={true}\n          keyboardFocused={true}\n          onClick={this.handleSubmitClose}\n        />,\n      ];\n\n    return(\n        <div>\n            <AppBar\n                title={<span style={styles.title} >React CRUD Application</span>}\n                iconElementLeft={<IconButton style={styles.leftIcon} ><NavigationClose /></IconButton>}\n            />\n            <br />\n            <Table>\n                <TableHeader adjustForCheckbox={false} displaySelectAll={false}>\n                    <TableRow>\n                        <TableHeaderColumn>ID</TableHeaderColumn>\n                        <TableHeaderColumn>Name</TableHeaderColumn>\n                        <TableHeaderColumn>Age</TableHeaderColumn>\n                        <TableHeaderColumn>Edit</TableHeaderColumn>\n                        <TableHeaderColumn>Delete</TableHeaderColumn>\n                    </TableRow>\n                </TableHeader>\n                <TableBody displayRowCheckbox={false} >\n                    {this.displayTableData()}\n                </TableBody>\n            </Table>\n            <br />\n            {/* <RaisedButton label=\"Add\" onClick={this.addData} primary={true} /> */}\n            <RaisedButton label=\"Add Data\" onClick={this.handleOpen} />\n                <Dialog\n                title=\"Dialog With Actions\"\n                actions={actions}\n                modal={false}\n                open={this.state.open}\n                onRequestClose={this.handleClose}\n                >\n                {this.addData()}\n                </Dialog>\n        </div>\n    )\n}\n}\n\nexport default App;\n",
+    "static": true,
+    "longname": "E:/Github/reactcrudapp/src/App.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 49,
+    "kind": "variable",
+    "name": "styles",
+    "memberof": "src/App.js",
+    "static": true,
+    "longname": "src/App.js~styles",
+    "access": "public",
+    "export": false,
+    "importPath": "crudapp/src/App.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 23,
+    "undocument": true,
+    "type": {
+      "types": [
+        "{\"title\": *, \"leftIcon\": *}"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 50,
+    "kind": "class",
+    "name": "App",
+    "memberof": "src/App.js",
+    "static": true,
+    "longname": "src/App.js~App",
+    "access": "public",
+    "export": true,
+    "importPath": "crudapp/src/App.js",
+    "importStyle": "App",
+    "description": null,
+    "lineNumber": 35,
+    "undocument": true,
+    "interface": false,
+    "extends": [
+      "react~Component"
+    ]
+  },
+  {
+    "__docId__": 51,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "src/App.js~App",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/App.js~App#constructor",
+    "access": "public",
+    "description": null,
+    "lineNumber": 36,
+    "undocument": true
+  },
+  {
+    "__docId__": 52,
+    "kind": "member",
+    "name": "state",
+    "memberof": "src/App.js~App",
+    "static": false,
+    "longname": "src/App.js~App#state",
+    "access": "public",
+    "description": "",
+    "lineNumber": 48,
+    "properties": [
+      {
+        "nullable": null,
+        "types": [
+          "array"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "data",
+        "description": "The data that comes from the REST API"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "boolean"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "open",
+        "description": "Toggling Dialog Box for Create"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "boolean"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "openDelete",
+        "description": "Toggling Dialog Box for Delete"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "boolean"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "openUpdate",
+        "description": "Toggling Dialog Box for Update"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "name",
+        "description": "Full Name"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "int"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "age",
+        "description": "Age"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "int"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "id",
+        "description": "Id"
+      }
+    ],
+    "type": {
+      "nullable": null,
+      "types": [
+        "object"
+      ],
+      "spread": false,
+      "description": null
+    }
+  },
+  {
+    "__docId__": 68,
+    "kind": "method",
+    "name": "handleDeleteOpen",
+    "memberof": "src/App.js~App",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/App.js~App#handleDeleteOpen",
+    "access": "public",
+    "description": "Toggler for Delete Dialog Box - Open",
+    "lineNumber": 80,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "int"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "pid",
+        "description": "Id"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "pname",
+        "description": "Name"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "int"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "page",
+        "description": "Age"
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 69,
+    "kind": "method",
+    "name": "handleDeleteClose",
+    "memberof": "src/App.js~App",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/App.js~App#handleDeleteClose",
+    "access": "public",
+    "description": "Toggler for Delete Dialog Box - Close",
+    "lineNumber": 92,
+    "params": [],
+    "return": null
+  },
+  {
+    "__docId__": 70,
+    "kind": "method",
+    "name": "handleDeleteSubmitClose",
+    "memberof": "src/App.js~App",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/App.js~App#handleDeleteSubmitClose",
+    "access": "public",
+    "description": "Toggler for Delete Dialog Box - Close by Submitting",
+    "lineNumber": 99,
+    "params": [],
+    "return": null
+  },
+  {
+    "__docId__": 71,
+    "kind": "method",
+    "name": "handleUpdateOpen",
+    "memberof": "src/App.js~App",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/App.js~App#handleUpdateOpen",
+    "access": "public",
+    "description": "Toggler for Update Dialog Box - Open",
+    "lineNumber": 124,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "int"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "pid",
+        "description": "Id"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "pname",
+        "description": "Name"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "int"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "page",
+        "description": "Age"
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 72,
+    "kind": "method",
+    "name": "handleUpdateClose",
+    "memberof": "src/App.js~App",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/App.js~App#handleUpdateClose",
+    "access": "public",
+    "description": "Toggler for Update Dialog Box - Close",
+    "lineNumber": 136,
+    "params": [],
+    "return": null
+  },
+  {
+    "__docId__": 73,
+    "kind": "method",
+    "name": "handleUpdateSubmitClose",
+    "memberof": "src/App.js~App",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/App.js~App#handleUpdateSubmitClose",
+    "access": "public",
+    "description": "Toggler for Update Dialog Box - Close By Submitting",
+    "lineNumber": 143,
+    "params": [],
+    "return": null
+  },
+  {
+    "__docId__": 74,
+    "kind": "method",
+    "name": "handleNameChange",
+    "memberof": "src/App.js~App",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/App.js~App#handleNameChange",
+    "access": "public",
+    "description": "Saving the name to the State Object",
+    "lineNumber": 165,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Synthetic Event"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "event",
+        "description": ""
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 75,
+    "kind": "method",
+    "name": "handleAgeChange",
+    "memberof": "src/App.js~App",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/App.js~App#handleAgeChange",
+    "access": "public",
+    "description": "Saving the age to the State Object",
+    "lineNumber": 175,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Synthetic Event"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "event",
+        "description": ""
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 76,
+    "kind": "method",
+    "name": "handleOpen",
+    "memberof": "src/App.js~App",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/App.js~App#handleOpen",
+    "access": "public",
+    "description": "Toggler for Create Dialog Box - Open",
+    "lineNumber": 184,
+    "params": [],
+    "return": null
+  },
+  {
+    "__docId__": 77,
+    "kind": "method",
+    "name": "handleClose",
+    "memberof": "src/App.js~App",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/App.js~App#handleClose",
+    "access": "public",
+    "description": "Toggler for Create Dialog Box - Close",
+    "lineNumber": 191,
+    "params": [],
+    "return": null
+  },
+  {
+    "__docId__": 78,
+    "kind": "method",
+    "name": "handleSubmitClose",
+    "memberof": "src/App.js~App",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/App.js~App#handleSubmitClose",
+    "access": "public",
+    "description": "Toggler for Create Dialog Box - Close by Submitting",
+    "lineNumber": 198,
+    "params": [],
+    "return": null
+  },
+  {
+    "__docId__": 79,
+    "kind": "method",
+    "name": "componentWillMount",
+    "memberof": "src/App.js~App",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/App.js~App#componentWillMount",
+    "access": "public",
+    "description": "Default Lifecycle of React",
+    "lineNumber": 218,
+    "params": [],
+    "return": null
+  },
+  {
+    "__docId__": 80,
+    "kind": "method",
+    "name": "addData",
+    "memberof": "src/App.js~App",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/App.js~App#addData",
+    "access": "public",
+    "description": "TextField for Creating new Data",
+    "lineNumber": 239,
+    "return": {
+      "nullable": null,
+      "types": [
+        "ReactElement"
+      ],
+      "spread": false,
+      "description": "Name Field and Age Field"
+    },
+    "params": []
+  },
+  {
+    "__docId__": 81,
+    "kind": "method",
+    "name": "deleteData",
+    "memberof": "src/App.js~App",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/App.js~App#deleteData",
+    "access": "public",
+    "description": "Text for Deleting new Data",
+    "lineNumber": 259,
+    "return": {
+      "nullable": null,
+      "types": [
+        "ReactElement"
+      ],
+      "spread": false,
+      "description": "Text"
+    },
+    "params": []
+  },
+  {
+    "__docId__": 82,
+    "kind": "method",
+    "name": "updateData",
+    "memberof": "src/App.js~App",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/App.js~App#updateData",
+    "access": "public",
+    "description": "TextField for Updating new Data",
+    "lineNumber": 269,
+    "return": {
+      "nullable": null,
+      "types": [
+        "ReactElement"
+      ],
+      "spread": false,
+      "description": "Name Field and Age Field"
+    },
+    "params": []
+  },
+  {
+    "__docId__": 83,
+    "kind": "method",
+    "name": "displayTableData",
+    "memberof": "src/App.js~App",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/App.js~App#displayTableData",
+    "access": "public",
+    "description": "Function for Organizing Data on the Table",
+    "lineNumber": 291,
+    "return": {
+      "nullable": null,
+      "types": [
+        "Array"
+      ],
+      "spread": false,
+      "description": "Table Data in the form of array"
+    },
+    "params": []
+  },
+  {
+    "__docId__": 84,
+    "kind": "method",
+    "name": "render",
+    "memberof": "src/App.js~App",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/App.js~App#render",
+    "access": "public",
+    "description": "render",
+    "lineNumber": 360,
+    "return": {
+      "nullable": null,
+      "types": [
+        "ReactElement"
+      ],
+      "spread": false,
+      "description": "HTML Codes"
+    },
+    "params": []
+  },
+  {
+    "__docId__": 85,
+    "kind": "file",
+    "name": "src/index.js",
+    "content": "import React from 'react';\nimport ReactDOM from 'react-dom';\nimport './index.css';\nimport App from './App';\nimport registerServiceWorker from './registerServiceWorker';\n\n// Material-UI\nimport MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';\nimport getMuiTheme from 'material-ui/styles/getMuiTheme';\n\nReactDOM.render(\n<MuiThemeProvider muiTheme={getMuiTheme()}>\n    <App />\n</MuiThemeProvider>, document.getElementById('root'));\nregisterServiceWorker();\n",
+    "static": true,
+    "longname": "E:/Github/reactcrudapp/src/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 86,
+    "kind": "file",
+    "name": "src/registerServiceWorker.js",
+    "content": "// In production, we register a service worker to serve assets from local cache.\n\n// This lets the app load faster on subsequent visits in production, and gives\n// it offline capabilities. However, it also means that developers (and users)\n// will only see deployed updates on the \"N+1\" visit to a page, since previously\n// cached resources are updated in the background.\n\n// To learn more about the benefits of this model, read https://goo.gl/KwvDNy.\n// This link also includes instructions on opting out of this behavior.\n\nconst isLocalhost = Boolean(\n  window.location.hostname === 'localhost' ||\n    // [::1] is the IPv6 localhost address.\n    window.location.hostname === '[::1]' ||\n    // 127.0.0.1/8 is considered localhost for IPv4.\n    window.location.hostname.match(\n      /^127(?:\\.(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)){3}$/\n    )\n);\n\nexport default function register() {\n  if (process.env.NODE_ENV === 'production' && 'serviceWorker' in navigator) {\n    // The URL constructor is available in all browsers that support SW.\n    const publicUrl = new URL(process.env.PUBLIC_URL, window.location);\n    if (publicUrl.origin !== window.location.origin) {\n      // Our service worker won't work if PUBLIC_URL is on a different origin\n      // from what our page is served on. This might happen if a CDN is used to\n      // serve assets; see https://github.com/facebookincubator/create-react-app/issues/2374\n      return;\n    }\n\n    window.addEventListener('load', () => {\n      const swUrl = `${process.env.PUBLIC_URL}/service-worker.js`;\n\n      if (isLocalhost) {\n        // This is running on localhost. Lets check if a service worker still exists or not.\n        checkValidServiceWorker(swUrl);\n\n        // Add some additional logging to localhost, pointing developers to the\n        // service worker/PWA documentation.\n        navigator.serviceWorker.ready.then(() => {\n          console.log(\n            'This web app is being served cache-first by a service ' +\n              'worker. To learn more, visit https://goo.gl/SC7cgQ'\n          );\n        });\n      } else {\n        // Is not local host. Just register service worker\n        registerValidSW(swUrl);\n      }\n    });\n  }\n}\n\nfunction registerValidSW(swUrl) {\n  navigator.serviceWorker\n    .register(swUrl)\n    .then(registration => {\n      registration.onupdatefound = () => {\n        const installingWorker = registration.installing;\n        installingWorker.onstatechange = () => {\n          if (installingWorker.state === 'installed') {\n            if (navigator.serviceWorker.controller) {\n              // At this point, the old content will have been purged and\n              // the fresh content will have been added to the cache.\n              // It's the perfect time to display a \"New content is\n              // available; please refresh.\" message in your web app.\n              console.log('New content is available; please refresh.');\n            } else {\n              // At this point, everything has been precached.\n              // It's the perfect time to display a\n              // \"Content is cached for offline use.\" message.\n              console.log('Content is cached for offline use.');\n            }\n          }\n        };\n      };\n    })\n    .catch(error => {\n      console.error('Error during service worker registration:', error);\n    });\n}\n\nfunction checkValidServiceWorker(swUrl) {\n  // Check if the service worker can be found. If it can't reload the page.\n  fetch(swUrl)\n    .then(response => {\n      // Ensure service worker exists, and that we really are getting a JS file.\n      if (\n        response.status === 404 ||\n        response.headers.get('content-type').indexOf('javascript') === -1\n      ) {\n        // No service worker found. Probably a different app. Reload the page.\n        navigator.serviceWorker.ready.then(registration => {\n          registration.unregister().then(() => {\n            window.location.reload();\n          });\n        });\n      } else {\n        // Service worker found. Proceed as normal.\n        registerValidSW(swUrl);\n      }\n    })\n    .catch(() => {\n      console.log(\n        'No internet connection found. App is running in offline mode.'\n      );\n    });\n}\n\nexport function unregister() {\n  if ('serviceWorker' in navigator) {\n    navigator.serviceWorker.ready.then(registration => {\n      registration.unregister();\n    });\n  }\n}\n",
+    "static": true,
+    "longname": "E:/Github/reactcrudapp/src/registerServiceWorker.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 87,
+    "kind": "variable",
+    "name": "isLocalhost",
+    "memberof": "src/registerServiceWorker.js",
+    "static": true,
+    "longname": "src/registerServiceWorker.js~isLocalhost",
+    "access": "public",
+    "export": false,
+    "importPath": "crudapp/src/registerServiceWorker.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 11,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 88,
+    "kind": "function",
+    "name": "register",
+    "memberof": "src/registerServiceWorker.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/registerServiceWorker.js~register",
+    "access": "public",
+    "export": true,
+    "importPath": "crudapp/src/registerServiceWorker.js",
+    "importStyle": "register",
+    "description": null,
+    "lineNumber": 21,
+    "undocument": true,
+    "params": [],
+    "return": null
+  },
+  {
+    "__docId__": 89,
+    "kind": "function",
+    "name": "registerValidSW",
+    "memberof": "src/registerServiceWorker.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/registerServiceWorker.js~registerValidSW",
+    "access": "public",
+    "export": false,
+    "importPath": "crudapp/src/registerServiceWorker.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 55,
+    "undocument": true,
+    "params": [
+      {
+        "name": "swUrl",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null,
+    "ignore": true
+  },
+  {
+    "__docId__": 90,
+    "kind": "function",
+    "name": "checkValidServiceWorker",
+    "memberof": "src/registerServiceWorker.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/registerServiceWorker.js~checkValidServiceWorker",
+    "access": "public",
+    "export": false,
+    "importPath": "crudapp/src/registerServiceWorker.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 84,
+    "undocument": true,
+    "params": [
+      {
+        "name": "swUrl",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null,
+    "ignore": true
+  },
+  {
+    "__docId__": 91,
+    "kind": "function",
+    "name": "unregister",
+    "memberof": "src/registerServiceWorker.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/registerServiceWorker.js~unregister",
+    "access": "public",
+    "export": true,
+    "importPath": "crudapp/src/registerServiceWorker.js",
+    "importStyle": "{unregister}",
+    "description": null,
+    "lineNumber": 111,
+    "undocument": true,
+    "params": [],
+    "return": null
+  },
+  {
+    "kind": "index",
+    "content": "# React CRUD Application\r\n--------\r\n\r\nReact CRUD Application is a Simple Create, Read, Update and Delete of some data taken from Restful API and made from React JS + Node JS Application. React JS is the frontend while Node JS works on the backend of the code. <br /><br />\r\nWhy this architecture? It is made like this to solve the Cross Origin Resource Sharing (CORS) Error from any ways possible. The REST API (which is in Spring Framework) is working on the protocol http and the React app is working on the protocol https. So you get the point. I will be posting this really soon on my blog (https://medium.com/@sulabh4/). Follow me on that. <br /> <br />\r\nFor the API call, I have used axios which is really small and easy than the AJAX + Promise code. Axios uses promise based HTTP client for the browser and node.js.<br /><br />\r\nYes, and also, Material UI is used to enhance the page. All the looks and feels of the page resembles to Google Material Design.<br /> <br />\r\nA Real Production Application can be made with this codebase if contributors are there to help. If anybody is interested than they can also edit the REST API, which is on Spring, is also on the other side of the repository. Here's a quick link for that (https://github.com/codexponent/springcrudapp). Everybody is welcome!!<br /> <br />\r\n\r\n\r\n## Status\r\n--------\r\n\r\n[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/codexponent/reactcrudapp/master/LICENSE)\r\n[![Build Status](https://api.travis-ci.com/codexponent/reactcrudapp.svg?token=7YLbZnNjDcsYyhUp2xvc&branch=master)](https://travis-ci.com/codexponent/reactcrudapp)\r\n[![dependencies Status](https://david-dm.org/codexponent/reactcrudapp/status.svg)](https://david-dm.org/codexponent/reactcrudapp)\r\n[![devDependencies Status](https://david-dm.org/codexponent/reactcrudapp/dev-status.svg)](https://david-dm.org/codexponent/reactcrudapp?type=dev)\r\n\r\n## Download and Installation\r\n-------\r\n\r\nTo begin using this project, follow the following options to get started:\r\n* Clone the repo: `git clone https://github.com/codexponent/reactcrudapp.git`\r\n* [Fork, or Download on GitHub](https://github.com/codexponent/reactcrudapp)\r\n\r\n## Usage\r\n-------\r\n\r\n- `npm install` Install the dependencies\r\n- `npm run start` Start the server\r\n- Go to `localhost:3000` and see the app start\r\n\r\n## Features\r\n--------\r\n\r\n- Express.js and React.js with the simplest of code\r\n- Axios for easier HTTP Calls\r\n- Hosted on Heroku\r\n- Material Design\r\n\r\n## Contribute\r\n----------\r\n\r\n- Issue Tracker: https://github.com/codexponent/reactcrudapp/issues\r\n- Source Code: https://github.com/codexponent/reactcrudapp\r\n- Contributors: https://github.com/codexponent/reactcrudapp/contributors.txt\r\n\r\n## Support\r\n-------\r\n\r\nIf you are having issues, please let us know.\r\nI have a mailing list located at: sulabh4@hotmail.com\r\n\r\n\r\n## Copyright and License\r\n-------\r\n\r\nCopyright 2018 Codexponent. Code released under the [MIT]license.\r\n\r\n",
+    "longname": "E:\\Github\\reactcrudapp\\README.md",
+    "name": "./README.md",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "packageJSON",
+    "content": "{\n  \"name\": \"crudapp\",\n  \"version\": \"0.1.0\",\n  \"private\": true,\n  \"dependencies\": {\n    \"axios\": \"^0.18.0\",\n    \"body-parser\": \"^1.18.2\",\n    \"compression\": \"^1.7.2\",\n    \"express\": \"^4.16.2\",\n    \"material-ui\": \"^0.20.0\",\n    \"morgan\": \"^1.9.0\",\n    \"react\": \"^16.2.0\",\n    \"react-dom\": \"^16.2.0\",\n    \"react-scripts\": \"1.1.1\"\n  },\n  \"scripts\": {\n    \"start\": \"react-scripts start\",\n    \"build\": \"react-scripts build\",\n    \"test\": \"react-scripts test --env=jsdom\",\n    \"eject\": \"react-scripts eject\"\n  },\n  \"devDependencies\": {\n    \"cross-env\": \"^5.1.3\",\n    \"esdoc\": \"^1.0.4\",\n    \"esdoc-jsx-plugin\": \"^1.0.0\",\n    \"esdoc-react-plugin\": \"^1.0.1\",\n    \"esdoc-standard-plugin\": \"^1.0.0\"\n  }\n}\n",
+    "longname": "E:\\Github\\reactcrudapp\\package.json",
+    "name": "package.json",
+    "static": true,
+    "access": "public"
+  }
+]
