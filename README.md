@@ -1,11 +1,11 @@
 # React CRUD Application
 --------
 
-React CRUD Application is a Simple Create, Read, Update and Delete of some data taken from Restful API and made from React JS + Node JS Application. React JS is the frontend while Node JS works on the backend of the code. <br />
-Why this architecture? It is made like this to solve the Cross Origin Resource Sharing (CORS) Error from any ways possible. The REST API (which is in Spring Framework) is working on the protocol http and the React app is working on the protocol https. So you get the point. I will be posting this really soon on my blog (https://medium.com/@sulabh4/). Follow me on that. <br />
-For the API call, I have used axios which is really small and easy than the AJAX + Promise code. Axios uses promise based HTTP client for the browser and node.js.<br />
-Yes, and also, Material UI is used to enhance the page. All the looks and feels of the page resembles to Google Material Design.<br />
-A Real Production Application can be made with this codebase if contributors are there to help. If anybody is interested than they can also edit the REST API, which is on Spring, is also on the other side of the repository. Here's a quick link for that (https://github.com/codexponent/springcrudapp). Everybody is welcome!!<br />
+React CRUD Application is a Simple Create, Read, Update and Delete of some data taken from Restful API and made from React JS + Node JS Application. React JS is the frontend while Node JS works on the backend of the code. <br /><br />
+Why this architecture? It is made like this to solve the Cross Origin Resource Sharing (CORS) Error from any ways possible. The REST API (which is in Spring Framework) is working on the protocol http and the React app is working on the protocol https. So you get the point. I will be posting this really soon on my blog (https://medium.com/@sulabh4/). Follow me on that. <br /> <br />
+For the API call, I have used axios which is really small and easy than the AJAX + Promise code. Axios uses promise based HTTP client for the browser and node.js.<br /><br />
+Yes, and also, Material UI is used to enhance the page. All the looks and feels of the page resembles to Google Material Design.<br /> <br />
+A Real Production Application can be made with this codebase if contributors are there to help. If anybody is interested than they can also edit the REST API, which is on Spring, is also on the other side of the repository. Here's a quick link for that (https://github.com/codexponent/springcrudapp). Everybody is welcome!!<br /> <br />
 
 
 ## Status
