@@ -51,7 +51,6 @@ if (!dev){
         console.log(req.body)
         
 
-        // axios.post('http://localhost:8080/SpringRestHibernate/create', req.body)
         axios.post('http://springcrudapp-springcrudapp.1d35.starter-us-east-1.openshiftapps.com/SpringRestHibernate/create', req.body)
         .then((response) => {
             console.log('Server response -> this is being sent stringified')
@@ -75,7 +74,6 @@ if (!dev){
         console.log(req.body)
         
 
-        // axios.post('http://localhost:8080/SpringRestHibernate/create', req.body)
         axios.put('http://springcrudapp-springcrudapp.1d35.starter-us-east-1.openshiftapps.com/SpringRestHibernate/update', req.body)
         .then((response) => {
             console.log('Server response -> this is being sent stringified for update')
@@ -99,8 +97,6 @@ if (!dev){
         console.log(req.body)
         
 
-        // axios.post('http://localhost:8080/SpringRestHibernate/create', req.body)
-        //axios.delete('http://localhost:8080/SpringRestHibernate/students/delete/' + this.state.id)
         axios.delete('http://springcrudapp-springcrudapp.1d35.starter-us-east-1.openshiftapps.com/SpringRestHibernate/delete/' + req.body.id)
         .then((response) => {
             console.log('Server response -> this is being sent stringified for delete')
